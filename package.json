@@ -6,12 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "nextlevelbuild": "node ./node_modules/nextlevelpackage/cli.js"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^15.1.6",
+    "next": "14.2.4",
+    "nextlevelpackage": "^1.0.7",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",
